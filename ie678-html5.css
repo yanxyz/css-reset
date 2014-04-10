@@ -1,0 +1,21 @@
+/**
+ * css reset
+ * https://github.com/yanxyz/css-reset
+ */
+
+html { *font-size: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+body, h1, h2, h3, h4, h5, h6, p, dl, dt, dd { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+a:active { background: transparent; }
+img { border: 0; }
+form { *margin: 0; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+textarea { overflow: auto; vertical-align: top; }
+table { border-collapse: collapse; border-spacing: 0; }
+svg:not(:root) { overflow: hidden; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden], template { display: none; }
+svg:not(:root) { overflow: hidden; }
