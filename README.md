@@ -10,7 +10,7 @@ CSS Reset 整理自 [normalize.css](https://github.com/necolas/normalize.css) �
 - `ie678.css` 适用于 IE 6/7/8
 - `ie678-html5.css` 适用于使用了 html5 标签的 IE 6/7/8
 
-## 库
+## 库操作
 
 ```bash
 # 克隆
@@ -19,12 +19,12 @@ git clone --recursive <repository>
 # 拉取
 git pull && git submodule update
 
-# 检查 submodule 是否有更新
+# 注意检查 submodule 是否有更新
 git status
 
 # 若有更新则提交更新
 git add .
-git commit -m "update submodule"
+git commit -m "update"
 git push
 
 ```
